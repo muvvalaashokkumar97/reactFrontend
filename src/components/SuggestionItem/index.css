@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+.arrow-button {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.arrow {
+  height: 15px;
+  width: 15px;
+}
+.suggestion {
+  color: #64748b;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}

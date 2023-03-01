@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.google-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.img-logo {
+  max-width: 250px;
+}
+.search-container {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.search-icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+.search-google {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 300px;
+}
+.suggestionList {
+  padding-left: 15px;
+}
